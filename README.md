@@ -9,7 +9,6 @@ const router=createBrowserRouter(
       <Route path='contact' element={<Contact/>}/>
       <Route path='user/:userid' element={<User/>}/>
       <Route loader={githubInfoLoader} path='github' element={<Github/>}/>
-
-    </Route>
+ </Route>
   )
   Individual paths and elements are defined. For nesting <Route>....</Route> can be used.
